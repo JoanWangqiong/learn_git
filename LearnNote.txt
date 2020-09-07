@@ -1,0 +1,28 @@
+#git 版本
+git --version
+
+#git初始化本地库，在这之前新建一个目录，作为本地库的存放路径，然后在新建目录下执行
+git init
+
+#设置本地库的
+git config --global user.name wangqiong
+git config --global user.email 18910766895@163.com
+git config --global --list
+
+#在本地库路径下新建文件，查看git状态
+git status
+git add learn_git.html
+git commit -m "create learn_git.html"
+
+#建立远程库的连接
+git remote add wang git@github.com:JoanWangqiong/learn_git.git
+#查看remote的库名
+git remote
+#创建公私钥
+ssh-keygen -t rsa -C "18910766895@163.com"
+#在上面命令的路径下查看.pub 结果的公钥，黏贴到github设置的setting--SSH and GPG keys-- New SSH key
+
+#查看连接
+ssh -T git@github.com
+#上传到远程库
+git push -u wang master
