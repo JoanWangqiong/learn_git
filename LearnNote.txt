@@ -84,3 +84,13 @@ source venv1/bin/activate
 False 0 None,空（列表、字典、字符串等），表示假值
 True 其他值，表示真值
 
+import math
+dir(math)
+help(math)
+
+Python基本语法：
+Python 简介： https://docs.python.org/zh-cn/3.7/tutorial/introduction.html
+Python 数据结构： https://docs.python.org/zh-cn/3.7/tutorial/datastructures.html
+Python 其他流程控制工具 : https://docs.python.org/zh-cn/3.7/tutorial/controlflow.html
+Python 中的类： https://docs.python.org/zh-cn/3.7/tutorial/classes.html
+Python 定义函数： https://docs.python.org/zh-cn/3.7/tutorial/controlflow.html#defining-functions
