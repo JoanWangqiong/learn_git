@@ -1,3 +1,12 @@
+
+极客大学：https://u.geekbang.org/lesson/18?article=229478&utm_source=baidu-ad&utm_medium=ppzq-pc&utm_term=baidu-ad-ppzq-title&utm_campaign=guanwang&utm_content=title
+账号：18610686371  
+密码：ak19830601
+
+=====================================================================================================
+Git
+
+=====================================================================================================
 #git 版本
 git --version
 
@@ -26,4 +35,52 @@ ssh-keygen -t rsa -C "18910766895@163.com"
 ssh -T git@github.com
 #上传到远程库
 git push -u wang master
+
+
+=====================================================================================================
+Python
+
+=====================================================================================================
+官方文档：https://docs.python.org/zh-cn/3.7/
+
+学习网站：
+https://stackoverflow.com
+https://github.com
+
+GitHub 搜索帮助： https://help.github.com/cn/github/searching-for-information-on-github
+
+Python 安装包下载地址
+https://www.python.org/downloads/
+
+安装方法
+https://docs.python.org/zh-cn/3.7/using/windows.html
+
+python -V
+pip -V
+
+常用 pip 源地址：
+豆瓣： https://pypi.doubanio.com/simple/
+清华： https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
+中科大： https://pypi.mirrors.ustc.edu.cn/simple/
+阿里云： https://mirrors.aliyun.com/pypi/simple/
+
+修改pip源获取方式：
+临时替换
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
+永久替换（先升级 pip：pip install pip -U ）：
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+不同环境之间批量导入软件包并安装：
+在A环境中生成requirements.txt文件：
+pip freeze > requirements.txt
+在B环境克隆A环境：
+pip install -r requirements.txt
+
+虚拟环境：
+python -m venv venv1
+python -m venv venv2
+source venv1/bin/activate
+
+False 0 None,空（列表、字典、字符串等），表示假值
+True 其他值，表示真值
 

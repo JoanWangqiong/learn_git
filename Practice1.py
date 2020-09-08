@@ -199,3 +199,14 @@ print(source4)
 res5 = '*今天开学日'
 source5 = re.sub('[*]','',res5)
 print(source5)
+
+# dir()函数
+dir()
+
+#import math
+
+#set集合，去重
+set1 = set([1,2,3,4,5,3,2,1])
+print(set1)
+
+#for... in...
